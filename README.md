@@ -21,7 +21,7 @@ Impressum und Datenschutz sind sichtbar als Entwürfe gekennzeichnet. Offen sind
 - Betriebliche Email-/Telefon-/Terminverwaltung, Löschfristen und gegebenenfalls Datenschutzbeauftragter.
 - Hosting-Vereinbarungen, internationale Datenverarbeitung und konkrete Protokollspeicherdauer.
 
-Die Vorschau ist mit `noindex,nofollow` gekennzeichnet. Dies verhindert keinen Zugriff; Repository und Pages-Vorschau sind öffentlich.
+Die Vorschau ist mit `noindex,follow,max-image-preview:large` gekennzeichnet. Dies verhindert keinen Zugriff; Repository und Pages-Vorschau sind öffentlich.
 
 ## Datenschutz und Cookie-Hinweis
 
@@ -34,3 +34,11 @@ Rechtliche Quellen: § 5 DDG https://www.gesetze-im-internet.de/ddg/__5.html und
 ## Bearbeitung
 
 `index.html`: Startseite · `style.css`: Layout · `app.js`: Menü, Galerie, Header und Hinweis · `impressum.html` und `datenschutz.html`: Rechtstextentwürfe · `assets/`: Bilder und Schriften.
+
+## SEO-Vorbereitung
+
+Seitentitel und Beschreibung für Friseur/Schnittkaue/Recklinghausen, Canonical, Open Graph, Twitter Card und strukturierte Daten (WebSite, WebPage, HairSalon) sind enthalten. Das Headerfoto ist als JPEG unter `assets/schnittkaue-eigentuemer-vorschau.jpg` mit absoluter URL als Vorschau- und bevorzugtes Seitenbild hinterlegt. Keine erfundenen Öffnungszeiten, Bewertungen, Preise oder Betreiberangaben.
+
+Die Arbeitsvorschau bleibt `noindex`. Beim regulären Livegang: absolute URLs in Canonical, Open Graph, strukturierten Daten und Sitemap auf die finale Domain umstellen; Startseite mit `index,follow,max-image-preview:large` freigeben; Sitemap in robots.txt referenzieren und in Google Search Console einreichen. Rechtstextseiten können `noindex` behalten. Google entscheidet selbst über das letztlich angezeigte Bild und Snippet.
+
+Quellen: https://developers.google.com/search/docs/appearance/google-images und https://developers.google.com/search/docs/appearance/structured-data/local-business
