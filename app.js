@@ -1,0 +1,11 @@
+const toggle=document.querySelector('.menu-toggle'),nav=document.querySelector('#navigation');
+function closeMenu(){if(!nav||!toggle)return;nav.hidden=true;toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','Menü öffnen');document.body.style.overflow=''}
+toggle?.addEventListener('click',()=>{const open=nav.hidden;nav.hidden=!open;toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'Menü schließen':'Menü öffnen');document.body.style.overflow=open?'hidden':''});
+nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMenu()});
+const lightbox=document.querySelector('#lightbox');
+if(lightbox){document.querySelectorAll('[data-image]').forEach(button=>button.addEventListener('click',()=>{const img=lightbox.querySelector('img');img.src=button.dataset.image;img.alt=button.querySelector('img').alt;lightbox.showModal()}));lightbox.querySelector('.close').addEventListener('click',()=>lightbox.close());lightbox.addEventListener('click',e=>{if(e.target===lightbox)lightbox.close()})}
+const siteHeader=document.querySelector('header');function updateHeader(){siteHeader?.classList.toggle('is-scrolled',window.scrollY>40||document.body.classList.contains('legal-page'))}window.addEventListener('scroll',updateHeader,{passive:true});updateHeader();
+const notice=document.createElement('aside');notice.className='cookie-notice';notice.setAttribute('aria-label','Cookie- und Datenschutzhinweis');notice.innerHTML='<h2>Deine Privatsphäre zählt.</h2><p>Diese Webseite nutzt keine Analyse- oder Werbe-Cookies. Bilder und Schriften laden wir direkt von dieser Webseite. Wenn Du diesen Hinweis schließt, merken wir uns das für die aktuelle Browsersitzung.</p><div class="cookie-actions"><a href="datenschutz.html">Datenschutz</a><button type="button">Verstanden</button></div>';document.body.append(notice);
+try{notice.hidden=sessionStorage.getItem('schnittkaue-privacy-notice')==='dismissed'}catch{}
+notice.querySelector('button').addEventListener('click',()=>{notice.hidden=true;try{sessionStorage.setItem('schnittkaue-privacy-notice','dismissed')}catch{}});
+document.querySelectorAll('.cookie-reopen').forEach(b=>b.addEventListener('click',()=>{notice.hidden=false;notice.querySelector('button').focus()}));
