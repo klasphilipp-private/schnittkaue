@@ -12,9 +12,9 @@ Vorschau: https://klasphilipp-private.github.io/schnittkaue/
 
 Impressum und Datenschutz sind sichtbar als Entwürfe gekennzeichnet. Offen sind:
 
-- Vollständiger Betreibername/Firmierung, Rechtsform und Vertretungsberechtigte.
-- Bestätigung der Salonadresse Münsterstraße 20, 45657 Recklinghausen.
-- Handwerkskammer, Berufsangaben und gegebenenfalls Aufsichtsbehörde.
+- Rechtlicher Betreiber, Firmierung, Rechtsform und Vertretungsberechtigte anhand der Gewerbeanmeldung bestätigen. Ein Branchenverzeichnis führt den Salon unter [Nicole Devic](https://branchenbuch.meinestadt.de/recklinghausen/company/500194887). Zwei bereitgestellte Salonartikel nennen Nicole und Nedjo Devic als Salonleitung. Die rechtliche Betreiberrolle ergibt sich daraus nicht eindeutig.
+- Münsterstraße 20, 45657 Recklinghausen und 02361 9386622 sind im [Branchenverzeichnis](https://web2.cylex.de/firma-home/schnittkaue-15395294.html) belegt. Die [Salonwebsite](https://schnittkaue.de/) nennt auch info@schnittkaue.de.
+- Die [Handwerkskammer Münster](https://www.hwk-muenster.de/de/service-center/handwerksrolle) ist für Recklinghausen örtlich zuständig. Eintragung und Betriebsdaten aus der Handwerkskarte abgleichen. Nicole wird im bereitgestellten Salonporträt als Friseurmeisterin bezeichnet. Titel, Verleihungsstaat und ggf. die verleihende Stelle anhand der Urkunde bestätigen. Die [Handwerksordnung führt Friseure unter Anlage A Nr. 38](https://www.gesetze-im-internet.de/hwo/anlage_a.html).
 - Register- und Umsatzsteuer-/Wirtschafts-ID-Angaben, soweit vorhanden/erforderlich.
 - Angaben zur Verbraucherschlichtung, soweit erforderlich.
 - Fotografenangaben und erforderliche Urhebervermerke.

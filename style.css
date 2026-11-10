@@ -30,3 +30,20 @@ header{position:fixed;inset:0 0 auto;background:linear-gradient(180deg,#000b,tra
 .menu-close:hover,.menu-close:focus-visible{background:#111;color:#cdd4e8}.menu-close:focus-visible{outline:2px solid #111;outline-offset:4px}
 @media(max-width:767px){#navigation{inset:0 auto 0 0;width:66.666667vw;height:100dvh;padding:85px 22px 35px}#navigation:not([hidden]){gap:20px}#navigation a{font-size:clamp(20px,4.2vw,28px)}.menu-close{top:15px;right:15px}}
 @media(max-height:540px){#navigation:not([hidden]){justify-content:flex-start;gap:12px}#navigation a{font-size:24px}}
+
+/* Keep both people in the hero on portrait phones. */
+@media (max-width: 767px) and (orientation: portrait) {
+  .hero {
+    height: auto;
+    min-height: 0;
+    padding-top: var(--header-height);
+    background: #111;
+  }
+
+  .hero img {
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    object-position: center;
+  }
+}
