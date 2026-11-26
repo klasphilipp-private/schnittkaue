@@ -47,3 +47,6 @@ header{position:fixed;inset:0 0 auto;background:linear-gradient(180deg,#000b,tra
     object-position: center;
   }
 }
+
+/* Offene Betreiberangaben bleiben deutlich als Platzhalter erkennbar. */
+.legal-placeholder{background:#ffdf55;color:#17130a;padding:.12em .25em;box-decoration-break:clone;-webkit-box-decoration-break:clone}.legal-page address{font-style:normal;line-height:1.7}
