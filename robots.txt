@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Arbeitsvorschau: noindex ist in den HTML-Seiten gesetzt.
-# Beim Livegang Domain und Indexierungsfreigabe anpassen.
+Sitemap: https://schnittkaue.de/sitemap.xml
